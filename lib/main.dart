@@ -12,7 +12,7 @@ import 'package:todo_bloc_riverpod/domain/usecases/get_todo_usecase.dart';
 import 'package:todo_bloc_riverpod/domain/usecases/toggle_todo_usecase.dart';
 import 'package:todo_bloc_riverpod/presentation/blocs/todo/todo_bloc.dart';
 import 'package:todo_bloc_riverpod/presentation/pages/todo_page_riverpod.dart';
-import 'package:todo_bloc_riverpod/presentation/riverpod/todo_page_bloc.dart';
+import 'package:todo_bloc_riverpod/presentation/pages/todo_page_bloc.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
